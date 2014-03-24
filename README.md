@@ -1,15 +1,15 @@
-ctlc-docker-wordpress
+ctlc-docker-wordpress-serf
 ==================
 
-Base docker image to run a WordPress
+Base docker image to run a WordPress with Serf built-in
 
 
 Usage
 -----
 
-To create the image `ctlc/wordpress`, execute the following command on the ctlc-docker-wordpress folder:
+To create the image `ctlc/wordpress-serf`, execute the following command on the ctlc-docker-wordpress-serf folder:
 
-	sudo docker build -t ctlc/wordpress .
+	sudo docker build -t ctlc/wordpress-serf .
 
 Running the WordPress Container
 ------------------------
