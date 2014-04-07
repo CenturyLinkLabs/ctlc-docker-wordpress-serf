@@ -2,7 +2,6 @@ FROM ctlc/wordpress
 MAINTAINER Lucas Carlson <lucas@rufy.com>
 
 # Let's get serf
-RUN apt-get update -q
 RUN apt-get install -qy unzip
 ADD https://dl.bintray.com/mitchellh/serf/0.5.0_linux_amd64.zip serf.zip
 RUN unzip serf.zip
